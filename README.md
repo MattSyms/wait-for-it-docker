@@ -2,9 +2,9 @@
 
 Docker image running the [wait-for-it](https://github.com/vishnubob/wait-for-it) script.
 
-GitHub repository: [MattSyms/wait-for-it-docker](https://github.com/MattSyms/wait-for-it-docker).
-
 Docker Hub repository: [mattsyms/wait-for-it](https://hub.docker.com/r/mattsyms/wait-for-it).
+
+GitHub repository: [MattSyms/wait-for-it-docker](https://github.com/MattSyms/wait-for-it-docker).
 
 ## Usage
 
