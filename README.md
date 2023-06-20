@@ -29,5 +29,5 @@ Options:
 Testing `google.com` availability on port `443`:
 
 ```
-docker run mattsyms/wait-for-it google.com:443 -- echo Google is up!
+docker run mattsyms/wait-for-it -s google.com:443 -- echo Google is up!
 ```
