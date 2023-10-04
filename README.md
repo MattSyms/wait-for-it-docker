@@ -57,7 +57,7 @@ services:
     image: mattsyms/wait-for-it
     entrypoint: tail -f /dev/null
     healthcheck:
-      test: >
+      test: >-
         w -t 0 mysql:3306 &&
         w -t 0 redis:6379 || (exit 1)
       timeout: 60s
