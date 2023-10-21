@@ -67,7 +67,7 @@ services:
   mysql:
     image: mysql
     environment:
-      - MYSQL_RANDOM_ROOT_PASSWORD=1
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
 
   redis:
     image: redis
