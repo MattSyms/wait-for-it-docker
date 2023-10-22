@@ -78,5 +78,5 @@ Run the app:
 
 ```
 docker compose run --rm app
-docker compose down -v -t0
+docker compose down --timeout 0
 ```
